@@ -1,0 +1,176 @@
+body {margin:0;}
+.kapsayici {
+	width:100%;
+	display:table;
+	margin:0 auto;
+}
+.header {
+	width:100%;
+	height:130px;
+	margin:0 auto;
+	background:#FFF;
+	position: sticky;
+	position: -webkit-sticky;
+	z-index: 99;
+	top: 0;
+
+	-webkit-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.10);
+	-moz-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.10);
+	box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.10);
+}
+.header .logo {
+	padding: 20px;
+	float:left;
+}
+.header .menu {
+	margin:0;
+	padding:0;
+	list-style:none;
+	float:right;
+	padding:55px 0;
+}
+.header .menu li {
+	float:left;
+	margin-left:50px;
+}
+.header .menu li a {
+	text-decoration:none;
+	font:400 14px 'Roboto Condensed';
+	color:#9aa3bc;
+
+}
+.header .menu li a:hover {
+	color:#c8b40b;
+}
+.sliderbox {
+	height:500px;
+	width:100%;
+}
+.slider {
+	background:#CCC;
+	width:1440px;
+	height:500px;
+	margin:0 auto;
+}
+.section {width:1170px;margin:0 auto;}
+.section .bilgi {width:100%;margin:50px 0;}
+.section .bilgi div {
+	position:relative;
+	float: left;
+	width:50px;
+	height:140px;
+}
+.section .bilgi div h1 {
+	font:700 18px 'Roboto Condensed';
+	transform: rotate(-90deg);
+    background:#fdf7bc;
+    color:#d8cc0b;
+    padding:10px 20px;
+    width:110px;
+    height:28px;
+    position:absolute;
+    left:-55px;bottom:55px;
+    margin:0;
+    white-space:nowrap;
+}
+.section .bilgi p {
+	background:#fcfce7;
+	font:400 14px 'Roboto Condensed';
+	color:#666;
+	line-height:24px;
+	padding: 10px 10px 10px 50px;
+}
+.section .yazi {
+	width:100%;
+	display:table;
+	margin: 60px 0;
+}
+.section .yazi img {
+	clear:both;
+	width:385px;
+	display:inline-block;
+}
+.section .yazi .yazisol, .section .yazi .yazisag {
+	width:780px;
+	margin:50px 0;
+}
+.section .yazi .yazisol {float:right;}
+.section .yazi .yazisag {float:left;}
+.section .yazi .yazisol h2, .section .yazi .yazisag h2 {
+	font:700 26px 'Roboto Condensed';
+	color:#d9cd11;
+}
+.section .yazi .yazisol p, .section .yazi .yazisol p a, .section .yazi .yazisag p, .section .yazi .yazisag p a {
+	font:400 14px 'Roboto Condensed';
+	color:#666;
+	line-height:24px;
+	padding:0;
+	text-decoration: none;
+}
+.section .yazi .yazisag p a, .section .yazi .yazisol p a {color:blue;}
+.section .yazi .yazisag p a:hover, .section .yazi .yazisol p a:hover {color:#d9cd11;}
+.footer {
+	width:100%;
+	height:50px;
+	background-color:#CCC;
+}
+.footer .section .sosyalmedya  {
+	float:left;
+	margin-top:12px;
+}
+.footer .section .sosyalmedya a {margin-right:20px;}
+.footer .section .sosyalmedya a:hover img {background:#FFF;}
+.footer .section b  {
+	float:right;
+	margin-top:18px;
+	font:400 14px 'Roboto Condensed';
+	color:#333;
+}
+.kapsayici .text {
+	position:absolute;
+	font:700 100px 'Roboto Condensed';
+	color:#f7f7f7;	
+}
+.kapsayici .text1 {top:800px;left:-40px;transform:rotate(90deg);}
+.kapsayici .text2 {top:1300px;left:-40px;transform:rotate(90deg);}
+.kapsayici .text3 {top:1900px;left:-80px;transform:rotate(90deg);}
+
+.kapsayici .text4 {top:800px;right:-40px;transform:rotate(-90deg);}
+.kapsayici .text5 {top:1300px;right:-40px;transform:rotate(-90deg);}
+.kapsayici .text6 {top:1900px;right:-40px;transform:rotate(-90deg);}
+
+.urunler {display: table;}
+.urun {
+	width:560px;
+	height:420px;
+	margin:75px 0;
+	float:left;
+}
+.urun:nth-child(odd) {margin-right: 45px;}
+
+.urun .urunbilgi {
+	width:360px;
+	height: 100px;
+	border:10px solid #FFF;
+	position:relative;
+	bottom:80px;
+	left:80px;
+	background-color:#f2e3cf;
+}
+.urun .urunbilgi h3 {
+	font:700 14px 'Roboto Condensed';
+	color:#a3a3a3;
+	width:360px;
+	text-align:center;
+}
+.urun .urunbilgi p {
+	font:400 13px 'Roboto Condensed';
+	color:#a3a3a3;
+	width:330px;
+	padding:0 15px;
+}
+.urun2 {
+	float:left;
+	margin:45px 35px 45px 0;
+}
+.urun2:nth-child(3n+1) {margin-right:0;}
